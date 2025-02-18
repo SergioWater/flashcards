@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import "./FlashcardQuiz.css"
+import "./Flashcard.css"
 
 const sampleQuizData = [
   {
