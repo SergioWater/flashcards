@@ -5,6 +5,28 @@
     padding: 20px;
     font-family: Arial, sans-serif;
   }
+
+  .feedback.correct {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .feedback.incorrect {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .scoreboard {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-end {
+    text-align: center;
+    margin-top: 20px;
+  }
   
   .card {
     background-color: white;
