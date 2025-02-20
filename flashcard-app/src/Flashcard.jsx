@@ -2,7 +2,7 @@
 import { useState } from "react";
 // Import the JSON file (adjust path if needed)
 import sampleQuizData2 from "./flashcards-Qz4.json";
-import "./Flashcard.css";
+import "./styles/Flashcard.css";
 
 function FlashcardQuiz() {
   // This will track which question in the JSON we are on.
