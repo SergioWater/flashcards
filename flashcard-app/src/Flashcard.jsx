@@ -1,7 +1,7 @@
 "use client"; // If you're in a Next.js app with the new app router
 import { useState } from "react";
-import sampleQuizData2 from "./jsons/CSC415unit3.json";
-import "./Flashcard.css";
+import sampleQuizData2 from "./flashcards/CSC415unit3.json";
+import "./styles/Flashcard.css";
 
 function FlashcardQuiz() {
   // 1. State variables
