@@ -1,3 +1,34 @@
+flashcard-app/
+├── README.md
+├── node_modules/
+├── package-lock.json
+├── package.json
+├── public/
+└── src/
+    ├── Flashcard.jsx
+    ├── flashcards/
+    │   ├── CSC415.json
+    │   └── flashcards-Qz4.json
+    ├── reportWebVitals.js
+    ├── index.jsx
+    ├── setupTests.js
+    ├── styles/
+    │   ├── ConvertButton.css
+    │   ├── Home.css
+    │   ├── PDFReader.css
+    │   ├── index.css
+    │   ├── Flashcard.css
+    │   ├── NotecardQuiz.css
+    │   └── PDFUpload.css
+    └── components/
+        ├── ConvertButton.jsx
+        ├── Home.jsx
+        ├── NotecardQuiz.jsx
+        ├── PDFReader.jsx
+        ├── PDFUpload.jsx
+        └── PDFtoJSON.js
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
