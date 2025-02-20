@@ -1,10 +1,22 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+flashcard-app/
+├── README.md
+├── node_modules/
+├── package-lock.json
+├── package.json
+├── public/
+└── src/
+    ├── Flashcard.css
+    ├── Flashcard.jsx
+    ├── index.css
+    ├── index.jsx
+    └── jsons/
 
 In the project directory, you can run:
+### `PLAN`
+
+The ultimate goal here is super simple. Upload the slide, I want to read the Slide, then I want to convert the slide into a question(s). 
+
+The plan is for the home page to be the area where the person could read the pdfs. After reading 1 pdf, There is a button the right right that says convert. Which would then convert the pdf into a json, which would then stored and put on a notecard quiz.
 
 ### `npm start`
 
