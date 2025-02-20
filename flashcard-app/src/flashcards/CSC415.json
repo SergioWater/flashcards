@@ -1,0 +1,149 @@
+{
+    "definition_questions": [
+      {
+        "id": "Q1-1",
+        "question": "What is a program?",
+        "options": [
+          "It is a passive file containing code on disk",
+          "It is an actively executing piece of code in memory",
+          "It is the CPU component responsible for execution",
+          "It is always a compiled executable"
+        ],
+        "answer": "It is a passive file containing code on disk",
+        "explanation": "A program sits on disk as a file with instructions. It becomes a process only when it starts running in memory."
+      },
+      {
+        "id": "Q1-2",
+        "question": "What is a process?",
+        "options": [
+          "A set of code that is never executed",
+          "A program actively running in memory with allocated resources",
+          "An error that occurs when the program cannot run",
+          "A backup of a program on disk"
+        ],
+        "answer": "A program actively running in memory with allocated resources",
+        "explanation": "Once a program starts executing, it needs memory and other resources. This execution state is called a process."
+      },
+      {
+        "id": "Q1-3",
+        "question": "Which best describes the relationship between a program and a process?",
+        "options": [
+          "A program is active, and a process is inactive",
+          "A program and a process are completely different unrelated concepts",
+          "A program is the blueprint; a process is the running instance of that blueprint",
+          "They are both the same thing"
+        ],
+        "answer": "A program is the blueprint; a process is the running instance of that blueprint",
+        "explanation": "Think of a program as instructions on paper and a process as carrying out those instructions in real time."
+      },
+      {
+        "id": "Q2-1",
+        "question": "Which section of a process’s address space contains the compiled program code?",
+        "options": [
+          "Data section",
+          "Stack section",
+          "Heap section",
+          "Text section"
+        ],
+        "answer": "Text section",
+        "explanation": "The text section holds all of the executable instructions for the program."
+      },
+      {
+        "id": "Q2-2",
+        "question": "Which memory section is used for global variables in a process?",
+        "options": [
+          "Data section",
+          "Heap section",
+          "Stack section",
+          "Text section"
+        ],
+        "answer": "Data section",
+        "explanation": "Global and static variables are usually stored in the data segment of the address space."
+      },
+      {
+        "id": "Q2-3",
+        "question": "Where are local variables and function parameters typically stored?",
+        "options": [
+          "Heap",
+          "Data section",
+          "Stack",
+          "Text section"
+        ],
+        "answer": "Stack",
+        "explanation": "The stack grows and shrinks with function calls, storing local variables, return addresses, and parameters."
+      },
+      {
+        "id": "Q2-4",
+        "question": "Which section of the address space handles dynamically allocated memory during runtime?",
+        "options": [
+          "Data section",
+          "Stack",
+          "Heap",
+          "Text section"
+        ],
+        "answer": "Heap",
+        "explanation": "Memory allocated by functions like malloc (in C) or new (in C++) is taken from the heap."
+      },
+      {
+        "id": "Q2-5",
+        "question": "What does it mean for a process to have its own address space?",
+        "options": [
+          "It shares all memory with other processes",
+          "It reads from but cannot write to memory",
+          "It has a specific range of memory that only it can access",
+          "It has no concept of memory organization"
+        ],
+        "answer": "It has a specific range of memory that only it can access",
+        "explanation": "Each process is given its own memory boundaries (address space) where it can safely read and write."
+      },
+      {
+        "id": "Q3-1",
+        "question": "What is a Process Control Block (PCB)?",
+        "options": [
+          "An OS data structure that contains all information about the process",
+          "A file containing the source code of the process",
+          "A hardware component that manages I/O operations",
+          "A network protocol for inter-process communication"
+        ],
+        "answer": "An OS data structure that contains all information about the process",
+        "explanation": "A PCB holds details like the process ID, process state, program counter, CPU registers info, scheduling info, and more."
+      },
+      {
+        "id": "Q3-2",
+        "question": "Which of the following is NOT typically stored in a PCB?",
+        "options": [
+          "Process ID",
+          "Memory-management information (e.g., page tables)",
+          "Program counter",
+          "GPU rendering buffers"
+        ],
+        "answer": "GPU rendering buffers",
+        "explanation": "The PCB tracks core information like process ID, program counter, registers, memory, and scheduling details—not low-level graphics buffers."
+      },
+      {
+        "id": "Q3-3",
+        "question": "Which item in the PCB uniquely identifies a process?",
+        "options": [
+          "Process priority",
+          "Process ID",
+          "Open files list",
+          "Program counter"
+        ],
+        "answer": "Process ID",
+        "explanation": "The process ID (PID) is a unique number assigned to each process by the operating system."
+      },
+      {
+        "id": "Q3-4",
+        "question": "Which piece of information in the PCB points to the next instruction to be executed?",
+        "options": [
+          "Process ID",
+          "Page table",
+          "Program counter",
+          "CPU scheduling queue"
+        ],
+        "answer": "Program counter",
+        "explanation": "The program counter stores the memory address of the next instruction that the CPU will execute."
+      }
+    ]
+  }
+  
